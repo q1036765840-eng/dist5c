@@ -1,0 +1,1 @@
+import{a as e}from"./axios-Pc8D0n42.js";const t=s=>e.get("/smart5cApi/userInfo/queryAndPaging",s),a=s=>e.post("/smart5cApi/userInfo/save",s),r=s=>e.post("/smart5cApi/userInfo/updateById",s),p=()=>e.get("/smart5cApi/roleInfo/getRoleDownList"),n=s=>e.post("/smart5cApi/userInfo/updatePassword",s);export{p as a,r as e,t as g,a as s,n as u};

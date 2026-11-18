@@ -1,0 +1,1 @@
+import{a as e}from"./axios-Pc8D0n42.js";const o=s=>e.post("/smart5cApi/userInfo/login",JSON.stringify(s),{headers:{"Content-Type":"application/json"}}),i=()=>e.get("/smart5cApi/userInfo/getUserReqIp");export{i as g,o as l};
